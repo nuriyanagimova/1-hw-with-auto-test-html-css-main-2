@@ -1,3 +1,117 @@
-img {
-    height: 100px;
-}  
+/* Сброс стилей */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+	margin: 0px;
+    
+}
+html,body {
+    font-family: "Inter", sans-serif;
+
+}
+a {
+    text-decoration: none;
+    
+}
+
+
+.header {
+    background-color: #2965f1;
+    padding: 23px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.about {
+    background-color: #fafaff;
+    padding: 60px 0;
+    min-height: 100vh;
+
+}
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+.img {
+    max-height: 715px;
+}
+    
+.hobbies {
+    background-color:  #fff;
+    padding: 100px 0;
+}
+select {
+    padding : 9px 87px 8px 12px;
+    color: #303030;
+    font-weight: 400;
+    font-size: 16px;
+    background: url(../assets/fotos/ep_arrow-down\(1\).svg) no-repeat right 10px center;
+    appearance: none;
+    -moz-appearance: none;
+   
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 25px;
+}
+.mark-list {
+padding-left: 25px;
+list-style-image:url(../assets/fotos/solar_map-arrow-up-bold.svg);
+font-weight: 400;
+font-size: 16px;
+color: #303030;
+}
+.number-list {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+color: #303030; 
+
+}
+.input-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    
+}
+.input  {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    background:rgba(255, 255, 255, 0);
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2) ;
+    margin-bottom: 60px;
+}
+.btn {
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+}
+.separator {
+    margin-bottom: 60px;
+
+}
+    
+td, th {
+    font-size: 14px;
+    font-weight: 400;
+    color: #303030;
+}
+
+
+    
+
