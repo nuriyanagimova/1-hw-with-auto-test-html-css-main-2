@@ -114,34 +114,34 @@
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
         <hr class="separator">
         
-        <table border="1" data-cy="hw-about-table-pre">
+        <table class="table" border="1" data-cy="hw-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
                         - В последнем ряду первая ячейка должна занимать все свободное место по горизонтали (ширине). Таблицу можно заполнять любыми данными -->
             <tr>
-                <th>Цвета</th>
-                <th>Размер</th>
-                <th>Колличество</th>
+                <th class="table-title">Цвета</th>
+                <th class="table-title">Размер</th>
+                <th class="table-title">Колличество</th>
             </tr>
             <tr>
-                <td>Красный</td>
-                <td>Средний</td>
-                <td>5</td>
+                <td class="table-data">Красный</td>
+                <td class="table-data">Средний</td>
+                <td class="table-data">5</td>
             </tr>
             <tr>
-                <td>Синий</td>
-                <td>Маленький</td>
-                <td>1</td>
+                <td class="table-data">Синий</td>
+                <td class="table-data">Маленький</td>
+                <td class="table-data">1</td>
             </tr>
             <tr>
-                <td>Зеленый</td>
-                <td>Большой</td>
-                <td>3</td>
+                <td class="table-data">Зеленый</td>
+                <td class="table-data">Большой</td>
+                <td class="table-data">3</td>
             </tr>  
             <tr > 
-                <td colspan="2">Итого :</td>
-                <td colspan="2">8</td>
+                <td class="table-data" colspan="2">Итого :</td>
+                <td class="table-data" colspan="2">8</td>
                 
             </tr>
                 
@@ -150,7 +150,7 @@
     </section>
     <footer data-cy="hw-footer-pre">
         <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
-         <a href="https://it-incubator.io/" target="_blank">It-incubator</a>
+         <a class="footer-link"  href="https://it-incubator.io/" target="_blank">It-incubator</a>
     </footer>
 </body>
 </html>     

@@ -8,6 +8,7 @@
 }
 html,body {
     font-family: "Inter", sans-serif;
+    font-weight: 400;
 
 }
 a {
@@ -29,7 +30,7 @@ a {
     min-height: 100vh;
 
 }
-.title {
+.title, h2{
     font-weight: 700;
     font-size: 48px;
     color: #303030;
@@ -46,7 +47,7 @@ a {
 select {
     padding : 9px 87px 8px 12px;
     color: #303030;
-    font-weight: 400;
+    
     font-size: 16px;
     background: url(../assets/fotos/ep_arrow-down\(1\).svg) no-repeat right 10px center;
     appearance: none;
@@ -55,27 +56,27 @@ select {
 }
 
 h2 {
-    font-weight: 700;
+    
     font-size: 24px;
-    color: #303030;
+    
     margin-bottom: 25px;
 }
 .mark-list {
 padding-left: 25px;
 list-style-image:url(../assets/fotos/solar_map-arrow-up-bold.svg);
-font-weight: 400;
+
 font-size: 16px;
 color: #303030;
 }
 .number-list {
     padding-left: 20px;
-    font-weight: 400;
+    
     font-size: 16px;
 color: #303030; 
 
 }
 .input-text {
-    font-weight: 400;
+    
     font-size: 16px;
     color: #303030;
     
@@ -86,7 +87,7 @@ color: #303030;
     width: 330px;
     height: 36px;
     background:rgba(255, 255, 255, 0);
-    font-weight: 400;
+   
     font-size: 16px;
     color: rgba(48, 48, 48, 0.2) ;
     margin-bottom: 60px;
@@ -108,10 +109,49 @@ color: #303030;
     
 td, th {
     font-size: 14px;
-    font-weight: 400;
+    
     color: #303030;
+    width: 134px;
+    height: 40px;
+    border: 1px solid #95a1bb;
+}
+.table {
+    margin-bottom: 100px;
+}
+
+.table-title {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #303030;
+}
+    
+    
+.table-data {
+    width: 55px;
+    height: 40px;
+    padding: 0 10px;
+}
+    
+
+footer { 
+    background: rgba(163, 167, 255, 0.3);
+    padding: 27px 0;
+    
+    
+}
+
+.footer-link {
+    
+    font-size: 14px;
+    color: #2965f1;
+    
+}
+.footer-link:visited {
+    color: #f129c6;
 }
 
 
+    
     
 
